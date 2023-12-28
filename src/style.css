@@ -1,0 +1,109 @@
+.shadow {
+  position: relative;
+  height: 20%;
+  box-shadow: none !important;
+  background: -webkit-radial-gradient(50% 0%, 35% 30px, #757575 0%, transparent);
+}
+
+.shadow-signup {
+  position: relative;
+  height: 40px;
+  margin-top: 20px;
+  box-shadow: none !important;
+  background: -webkit-radial-gradient(50% 0%, 35% 30px, #757575 0%, transparent);
+}
+
+.shadow-home {
+  position: relative;
+  height: 100%;
+  box-shadow: none !important;
+  background: -webkit-radial-gradient(50% 0%, 50% 30px, #dddede 0%, transparent);
+}
+
+.ant-input-affix-wrapper {
+  border-radius: 0px;
+}
+
+.ant-input {
+  border-radius: 0px;
+}
+
+.ant-select-selector {
+  border-radius: 0px !important;
+}
+
+.ant-radio-button-wrapper:not(:first-child)::before {
+  background-color: transparent;
+  width: 0px;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  background: #694a9d !important;
+  color: white !important;
+}
+
+.new-bg {
+  background: #f1f1f2;
+}
+
+.three-line-ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  /* Limit the paragraph to three lines */
+}
+
+.one-line-ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  /* Limit the paragraph to three lines */
+}
+
+.ant-select-selection-item {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.col-cal {
+  background: #664395;
+  color: white;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ant-btn:hover {
+  background-color: transparent;
+  color: inherit;
+  border-color: initial;
+}
+
+.ant-upload-list-item-name {
+  max-width: 220px;
+  /* Adjust the maximum width according to your layout */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.scroll-display::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-display {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
